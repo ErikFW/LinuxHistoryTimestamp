@@ -17,7 +17,8 @@ UTC is the universal time we work with when it comes to logs, but not all system
 # The code and how to implement it
 In order to do this for every user on the linux system you need to add a bash script to the /etc/profile.d/ folder. <br>
 I have choosen to name this script file history_timestamp.sh <br>
-You can copy the history_timestamp.sh file from this site or you can write your own. <br>
+You can copy the history_timestamp.sh file from this site or you can write your own. [📥 Download history_timestamp.sh](https://githubusercontent.com)
+ <br>
 The file contains only one line of text. <br>
 
 export HISTTIMEFORMAT="%Y.%m.%d %H:%M:%S %Z UTC%z "
